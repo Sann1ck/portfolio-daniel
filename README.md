@@ -27,7 +27,7 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 2. Baixe esse repositório (ou clone com `git clone`)
 3. No terminal, navegue até a pasta do projeto e execute:
    ```bash
-  python portfolio_daniel.py
+     python portfolio_daniel.py
 
 
 ---
