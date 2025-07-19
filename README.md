@@ -34,9 +34,6 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 
 ### 💡 Próximos passos
 
-```markdown
-## 💡 Próximos Passos
-
 - Adicionar cores e estilo com `colorama`
 - Melhorar a interface do usuário no terminal
 - Criar uma versão em HTML futuramente
