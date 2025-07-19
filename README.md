@@ -27,5 +27,18 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 2. Baixe esse repositório (ou clone com `git clone`)
 3. No terminal, navegue até a pasta do projeto e execute:
 
+
+---
+
+### 💡 Próximos passos
+
+```markdown
+## 💡 Próximos Passos
+
+- Adicionar cores e estilo com `colorama`
+- Melhorar a interface do usuário no terminal
+- Criar uma versão em HTML futuramente
+- Refatorar o código em funções menores e mais organizadas
+
 ```bash
 python portfolio_daniel.py
