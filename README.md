@@ -18,7 +18,6 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 
 - Python 3.x
 - Terminal (console)
-- [Opcional] `colorama` (para colorir o terminal)
 
 ---
 
