@@ -26,6 +26,8 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 1. Instale o Python no seu computador (se ainda não tiver)
 2. Baixe esse repositório (ou clone com `git clone`)
 3. No terminal, navegue até a pasta do projeto e execute:
+   ```bash
+  python portfolio_daniel.py
 
 
 ---
@@ -39,6 +41,3 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 - Melhorar a interface do usuário no terminal
 - Criar uma versão em HTML futuramente
 - Refatorar o código em funções menores e mais organizadas
-
-```bash
-python portfolio_daniel.py
