@@ -45,33 +45,42 @@ def dqg():
         print(f'- {h}')
     print()
 
-
+print('-' * 50)
+print('Portfólio de Daniel Sant Anna'.center(50))
+print('-' * 50)
+print('Seja bem-vindo ao meu portfólio em Python!')
+print('Meu nome é Daniel Sant Anna e essa é a minha jornada.')
 print()
-print('Portifólio de Daniel Sant Anna')
-print()
-print('Seja Bem-vindo ao meu portifólio em Python!')
-print('Meu nome é Daniel Sant Anna e essa é a minha Jornada.')
-print()
-print('1 - Ver minhas Habilidades')
-print('2 - Ver meus objetivos')
-print('3 - Ver minha História')
-print('4 - Ver do que eu gosto')
-print('5 - Sair')
-print()
-
 
 while True:
-    escolha=int(input('Escolha uma opção:'))
+    print('Menu:')
+    print('1 - Ver minhas Habilidades')
+    print('2 - Ver meus Objetivos')
+    print('3 - Ver minha História')
+    print('4 - Ver do que eu gosto')
+    print('5 - Sair')
     print()
-    if escolha==1:
-        print(mh())
-    elif escolha==2:
-        print(mo())
-    elif escolha==3:
-        print(mhist())
-    elif escolha==4:
-        print(dqg())
-    elif escolha==5:
-        print('Deu para conhecer um pouco mais sobre mim ? Espero que sim...')
+
+    try:
+        escolha = int(input('Escolha uma opção: '))
+        print()
+    except ValueError:
+        print('Por favor, digite um número válido.')
+        continue
+
+    if escolha == 1:
+        mh()
+    elif escolha == 2:
+        mo()
+    elif escolha == 3:
+        mhist()
+    elif escolha == 4:
+        dqg()
+    elif escolha == 5:
+        print('Deu para conhecer um pouco mais sobre mim? Espero que sim...')
         print()
         break
+    else:
+        print('Opção inválida. Tente novamente.')
+
+
