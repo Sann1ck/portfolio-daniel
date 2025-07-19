@@ -32,7 +32,7 @@ Esse projeto foi criado como uma forma de **aprender programação** enquanto co
 
 ---
 
-### 💡 Próximos passos
+### 💡 Planos Futuros
 
 - Adicionar cores e estilo com `colorama`
 - Melhorar a interface do usuário no terminal
